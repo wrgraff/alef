@@ -229,7 +229,7 @@ $grid-gutter-width:           30px !default;
 $line-height-lg:              1.5 !default;
 $line-height-sm:              1.5 !default;
 
-$border-width:                1px !default;
+$border-width:                2px !default;
 $border-color:                $gray-300 !default;
 
 $border-radius:               .25rem !default;
@@ -270,7 +270,7 @@ $embed-responsive-aspect-ratios: join(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      'Open Sans', sans-serif;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
@@ -383,7 +383,7 @@ $table-border-level:          -6 !default;
 $input-btn-padding-y:         .375rem !default;
 $input-btn-padding-x:         .75rem !default;
 $input-btn-font-family:       null !default;
-$input-btn-font-size:         $font-size-base !default;
+$input-btn-font-size:         1.5rem !default;
 $input-btn-line-height:       $line-height-base !default;
 
 $input-btn-focus-width:       .2rem !default;
@@ -708,12 +708,12 @@ $nav-divider-margin-y:              $spacer / 2 !default;
 
 // Navbar
 
-$navbar-padding-y:                  $spacer / 2 !default;
-$navbar-padding-x:                  $spacer !default;
+$navbar-padding-y:                  $spacer * 1.5 !default;
+$navbar-padding-x:                  $spacer * 2.5 !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
 
-$navbar-brand-font-size:            $font-size-lg !default;
+$navbar-brand-font-size:            2rem !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
 $nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2 !default;
 $navbar-brand-height:               $navbar-brand-font-size * $line-height-base !default;
