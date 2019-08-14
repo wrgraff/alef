@@ -1,9 +1,0 @@
-$font-sizes: (
-    small: rem-calc(14),
-    medium: rem-calc(16),
-    large: rem-calc(20),
-);
-
-@function font-size($name) {
-    @return map-get($font-sizes, $name);
-}
