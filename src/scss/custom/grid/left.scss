@@ -1,0 +1,13 @@
+.col-left {
+    max-height: 100%;
+    overflow-y: auto;
+    flex-grow: 0;
+    flex-basis: 240px;
+    width: 240px;
+    max-width: 240px;
+
+    display: none;
+    @include media-breakpoint-up(md) {
+        display: block;
+    }
+}

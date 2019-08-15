@@ -1,0 +1,16 @@
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: $primary;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgba($white, .5);
+    // background-color: rgba($white, .2);
+    // border-style: solid;
+    // border-color: $primary;
+    // border-width: 0 1px;
+}

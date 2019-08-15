@@ -1,0 +1,9 @@
+.list-group-stripped {
+    .list-group-item {
+        border: none;
+
+        &:nth-child(odd) {
+            background-color: $gray-100;
+        }
+    }
+}

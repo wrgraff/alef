@@ -1096,7 +1096,12 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-sort-amount-down-alt:before { content: fa-content($fa-var-sort-amount-down-alt); }
 .#{$fa-css-prefix}-sort-amount-up:before { content: fa-content($fa-var-sort-amount-up); }
 .#{$fa-css-prefix}-sort-amount-up-alt:before { content: fa-content($fa-var-sort-amount-up-alt); }
-.#{$fa-css-prefix}-sort-down:before { content: fa-content($fa-var-sort-down); }
+.#{$fa-css-prefix}-sort-down:before { content: fa-content($fa-var-sort-down);
+    .btn & {
+        position: relative;
+        top: -5px;
+    }
+}
 .#{$fa-css-prefix}-sort-numeric-down:before { content: fa-content($fa-var-sort-numeric-down); }
 .#{$fa-css-prefix}-sort-numeric-down-alt:before { content: fa-content($fa-var-sort-numeric-down-alt); }
 .#{$fa-css-prefix}-sort-numeric-up:before { content: fa-content($fa-var-sort-numeric-up); }
