@@ -1,4 +1,4 @@
-// Site utils
-//=require utils/add-element.js
-
+//=require utils/addElement.js
 // Site apps
+//=require apps/menu.js
+//=require apps/content.js
